@@ -3,13 +3,13 @@
 ## Install
 
 ```bash
-npm i react-1pay
+npm i @1pay/react-1pay
 ```
 
 ## Usage
 
 ```js
-import React1pay from "react-1pay";
+import React1pay from "@1pay/react-1pay";
 
 React1pay.initialize("your wallet address");
 ```
@@ -17,7 +17,7 @@ React1pay.initialize("your wallet address");
 ## Example
 
 TODO: Add example and test
-More example can be found in [test suite](src/1pay.test.js)
+More example can be found in [test suite](src/onepay.test.js)
 
 ## Reference
 

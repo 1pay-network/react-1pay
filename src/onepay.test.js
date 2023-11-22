@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import ONEPAY from "./onepay";
 
 describe("ONEPAY", () => {
@@ -14,7 +17,7 @@ describe("ONEPAY", () => {
       ONEPAY.initialize(WALLET_ADDRESS);
 
       // Then
-      expect(window.onepay).toBeDefined();
+      expect(ONEPAY.pay).toBeDefined();
     });
   });
 });
